@@ -115,6 +115,24 @@ section{
     background-position: top;
 }
 
+#product6 .img{
+    width: 100%;
+    height: 250px;
+    background-image: url(https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQt1kkp7WYNgg4LIFKiWSEl9jBzc_aokMQhFI8ZNG8THmItsYXKn03VDW_ogpTPADlpmtBqikntCqL6cWFLlnMDzs7oL70K&usqp=CAE);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+
+#product7 .img{
+    width: 100%;
+    height: 250px;
+    background-image: url(https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRkByOY-pOP2Dhbfgw64kG4Gizb3lL9VVPhhqia50UCXtfJDfgsb_PrphUgFF6ThxXLD9Y4DGJ5WYAs6cQQYiBIFJyh1K0OHCYr_IgwZuQ55fhEu9sVFZeC&usqp=CAE);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+
 
 .basket-menu{
     display: flex;
