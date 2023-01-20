@@ -129,7 +129,6 @@ const creatItem = (newItem) => {
   li.appendChild(divImg);
   li.appendChild(divInfo);
   ul.append(li);
-  console.log(ul);
 };
 
 products.addEventListener("mouseover", (e) => {
