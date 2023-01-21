@@ -20,12 +20,10 @@ window.addEventListener("load", (e) => {
 });
 
 const getBasketListFromLocalStorage = () => {
-  counter = 0
   basketList.forEach((e) => {
     creatItem(e);
-    counter += 1
   });
-  quantity.innerText = counter
+  quantity.innerText = basketList.length
 };
 
 basketIcon.addEventListener("click", (e) => {
