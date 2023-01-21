@@ -6,7 +6,7 @@
 
 body{
     background-color: #68A694;
-    /* background-color: #68a694a9; */
+    font-family: 'Montserrat', sans-serif;
 }
 
 header{
@@ -21,7 +21,24 @@ header i {
     margin: 1rem;
     cursor: pointer;
     color: #01402E;
+    margin-right: 1.5rem;
 }
+
+#quantity{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 1rem;
+    font-size: .7rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    right: 16px;
+    top: 34px;
+}
+
 #products{
     height: 90vh;
     display: flex;
@@ -197,6 +214,7 @@ section{
 .basket-li{
     display: flex;
     padding: 1rem;
+    padding-right: auto;
 }
 
 .current-price{
@@ -209,7 +227,7 @@ section{
 }
 
 .basket-img{
-    width: 150px;
+    width: 130px;
     height: 200px;
     background-repeat: no-repeat;
     background-size: cover;
