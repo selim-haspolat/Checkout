@@ -195,6 +195,16 @@ section{
     background: #01402E; 
 }
 
+::-webkit-scrollbar {
+    width: 15px;
+}
+::-webkit-scrollbar-thumb {
+    background: #1D735A; 
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #01402E; 
+}
+
 .basket-head{
     display: flex;
     justify-content: space-between;
