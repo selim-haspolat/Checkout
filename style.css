@@ -42,6 +42,7 @@ header i {
 #products{
     height: 90vh;
     display: flex;
+    justify-content: space-around;
     flex-wrap: wrap;
     padding: 1rem;
 }
@@ -84,7 +85,7 @@ section{
     border: 1px solid antiquewhite;
     position: relative;
     /* width: 99.5%; */
-    width: calc(100% - .5px);
+    width: calc(100% - .2px);
     height: 50px;
     border-radius: 15px;
     padding-top: 1.1rem;
