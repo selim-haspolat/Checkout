@@ -24,6 +24,7 @@ const getBasketListFromLocalStorage = () => {
     creatItem(e);
   });
   quantity.innerText = basketList.length
+  quantity.innerText == 0 && (quantity.style.display = 'none')
 };
 
 basketIcon.addEventListener("click", (e) => {
@@ -64,6 +65,7 @@ products.addEventListener("click", (e) => {
       basketList.push(newItem);
       creatItem(newItem);
       (quantity.innerText = Number(quantity.innerText) + 1)
+      quantity.style.display = 'flex'
     } else {
       basketList.map(
         (x) => x.productName == newItem.productName && (flag = true)
@@ -162,6 +164,7 @@ ul.addEventListener("click", (e) => {
       priceSum += Number(i.price.slice(1) * i.amount);
     });
     (quantity.innerText = Number(quantity.innerText) - 1)
+    quantity.innerText == 0 && (quantity.style.display = 'none')
     subtotal.innerText = priceSum.toFixed(2);
     tax.innerText = (Number(subtotal.innerText) * 0.18).toFixed(2)
     ul.children.length == 0 && (shipping.innerText = '0.00')
