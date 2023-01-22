@@ -9,4 +9,3 @@ https://selim-haspolat.github.io/Checkout/
 - HTML
 - CSS
 - JS
-- DOM
